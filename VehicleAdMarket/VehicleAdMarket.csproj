@@ -7,4 +7,20 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="assets\images\urus.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Remove="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DesignDataWithDesignTimeCreatableTypes Include="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\images\urus.jpg" />
+  </ItemGroup>
+
 </Project>
