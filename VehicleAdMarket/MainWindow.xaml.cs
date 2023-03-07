@@ -24,5 +24,13 @@ namespace VehicleAdMarket
         {
             InitializeComponent();
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            base.Close();
+        }
+
     }
 }
+//TODO Icons
+//On Item click info dialog

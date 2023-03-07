@@ -20,7 +20,7 @@
         <StackPanel Grid.Row="0" Background="#0000FF">
             <Menu FontSize="20" HorizontalAlignment="Center" Background="#0000FF" Foreground="White">
                 <MenuItem Header="_Datoteka">
-                    <MenuItem Foreground="#050A30" Header="_Izhod"/>
+                    <MenuItem Foreground="#050A30" Header="_Izhod" Click="MenuItem_Click"/>
                 </MenuItem>
                 <MenuItem Header="_Oglasi" >
                     <MenuItem Foreground="#050A30" Header="_Dodaj" />
